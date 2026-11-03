@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#3b1718">
+<meta name="description" content="ZANAWAF: waffles caseros de zanahoria. Proyecto escolar de Los Waffleros de la Salud.">
+<title>ZANAWAF | Los Waffleros de la Salud</title>
+<style>
+:root{--wine:#3b1718;--pink:#f8dfe2;--rose:#d7aeb2;--cream:#fff8f7}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--wine);font-family:Arial,Helvetica,sans-serif}
+header{background:var(--wine);color:var(--pink);padding:30px 18px 24px;text-align:center;border-bottom:8px solid var(--rose)}
+header .eyebrow{font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;opacity:.9}
+header h1{font-family:Georgia,serif;font-size:clamp(2.7rem,9vw,5.5rem);font-style:italic;letter-spacing:.04em;margin:8px 0}
+header p{margin:0;font-size:1rem}
+nav{position:sticky;top:0;z-index:5;background:#fff8f7ee;backdrop-filter:blur(8px);border-bottom:1px solid #e6c6c8;padding:10px 12px;display:flex;gap:8px;overflow-x:auto;justify-content:flex-start}
+nav a{white-space:nowrap;text-decoration:none;color:var(--wine);border:1px solid #cda5a8;border-radius:999px;padding:8px 13px;font-size:.86rem}
+nav a:hover,nav a:focus{background:var(--wine);color:white}
+main{max-width:1100px;margin:28px auto;padding:0 14px}
+.intro{text-align:center;max-width:760px;margin:0 auto 28px;padding:22px 18px;background:var(--pink);border-radius:18px}
+.intro h2{font-family:Georgia,serif;font-style:italic;margin:0 0 8px;font-size:1.7rem}
+.intro p{line-height:1.6;margin:0}
+.slides{display:grid;gap:24px}
+.slide{margin:0;background:white;padding:8px;border-radius:14px;box-shadow:0 8px 26px #3b17181a;scroll-margin-top:78px}
+.slide img{display:block;width:100%;height:auto;border-radius:8px}
+footer{margin-top:38px;background:var(--wine);color:var(--pink);text-align:center;padding:28px 16px;border-top:8px solid var(--rose)}
+footer strong{font-family:Georgia,serif;font-size:1.6rem;font-style:italic}
+footer p{margin:8px 0 0}
+@media(min-width:760px){main{padding:0 24px}.slides{gap:34px}.slide{padding:12px}}
+</style>
+</head>
+<body>
+<header id="inicio">
+  <div class="eyebrow">Proyecto escolar · Los Waffleros de la Salud</div>
+  <h1>ZANAWAF</h1>
+  <p>Una propuesta deliciosa para disfrutar la zanahoria</p>
+</header>
+<nav aria-label="Navegación de la presentación">
+  <a href="#inicio">Inicio</a>
+  <a href="#diapositiva-2">Introducción</a>
+  <a href="#diapositiva-3">Problema y solución</a>
+  <a href="#diapositiva-4">Beneficios</a>
+  <a href="#diapositiva-5">Preparación</a>
+  <a href="#diapositiva-6">Importancia</a>
+  <a href="#diapositiva-7">Gracias</a>
+</nav>
+<main>
+  <section class="intro">
+    <h2>Los Waffleros de la Salud</h2>
+    <p>Conoce nuestro proyecto ZANAWAF a través de esta presentación. Desliza para descubrir la propuesta, sus beneficios, los ingredientes y cómo preparamos nuestros waffles de zanahoria.</p>
+  </section>
+  <section class="slides" aria-label="Presentación ZANAWAF">
+    <figure class="slide" id="diapositiva-1"><img src="assets/slide-1.jpg" alt="Portada de ZANAWAF con los integrantes del equipo"></figure>
+    <figure class="slide" id="diapositiva-2"><img src="assets/slide-2.jpg" alt="Introducción al proyecto ZANAWAF"></figure>
+    <figure class="slide" id="diapositiva-3"><img src="assets/slide-3.jpg" alt="Problema y solución que propone ZANAWAF"></figure>
+    <figure class="slide" id="diapositiva-4"><img src="assets/slide-4.jpg" alt="A quiénes beneficia ZANAWAF y sus beneficios"></figure>
+    <figure class="slide" id="diapositiva-5"><img src="assets/slide-5.jpg" alt="Ingredientes y preparación de los waffles de zanahoria"></figure>
+    <figure class="slide" id="diapositiva-6"><img src="assets/slide-6.jpg" alt="Importancia del producto en nuestras vidas"></figure>
+    <figure class="slide" id="diapositiva-7"><img src="assets/slide-7.jpg" alt="Cierre de la presentación: Gracias"></figure>
+  </section>
+</main>
+<footer>
+  <strong>¡Gracias por visitar ZANAWAF!</strong>
+  <p>Los Waffleros de la Salud</p>
+</footer>
+</body>
+</html>
